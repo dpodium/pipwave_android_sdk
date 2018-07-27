@@ -1,13 +1,13 @@
 apply plugin: 'com.github.dcendents.android-maven'
 
-group = 'com.pipwave.sdk.android'
+group = 'com.dpodium.pipwave_android_sdk'
 
 install {
     repositories.mavenInstaller {
         pom {
             project {
                 packaging 'aar'
-                groupId 'com.pipwave.sdk.android'
+                groupId 'com.dpodium.pipwave_android_sdk'
                 artifactId 'pipwavesdk'
 
                 name 'pipwave Android SDK' 

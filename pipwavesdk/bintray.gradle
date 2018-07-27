@@ -1,6 +1,6 @@
 apply plugin: 'com.jfrog.bintray'
 
-version = '1.0.3' //YOUR LIBRARY VERSION
+version = '1.0.0' //YOUR LIBRARY VERSION
 
 task sourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
@@ -33,9 +33,9 @@ bintray {
     pkg {
         //userOrg = 'silver94'
         repo = 'maven'
-        name = 'pipwavesdk' //YOUR PACKAGE NAME
+        name = 'pipwave-android-sdk' //YOUR PACKAGE NAME
         desc = 'sdk to call pipwave payment pages in android.' // YOUR LIBRARY DESCRIPTION
-        websiteUrl = 'https://www.dpodium.com' // YOUR SITE
+        websiteUrl = 'https://www.pipwave.com' // YOUR SITE
         vcsUrl = 'https://github.com/dpodium/pipwave_android_sdk.git' // YOUR GIT REPO
         licenses = ["Apache-2.0"] // A LIST OF YOUR LICENCES
         publish = true
